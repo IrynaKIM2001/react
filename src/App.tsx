@@ -1,8 +1,9 @@
-import './App.css'
+import {CoursesComponent} from "./components/courses-component/coursesComponent.tsx";
 
-function App() {
+const App=()=> {
   return (
     <>
+      <CoursesComponent/>
     </>
   )
 }
