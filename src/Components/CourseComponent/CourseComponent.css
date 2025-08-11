@@ -1,0 +1,22 @@
+*{
+    margin: 10px;
+
+}
+.course-container{
+    margin-top: 10px;
+    border: 1px solid #878686;
+    border-radius: 10px;
+}
+h2{
+   font-size: 25px;
+}
+p{
+    font-size: 20px;
+    color: #3a3a3a;
+}
+ol{
+    color: #4e504e;
+    list-style: decimal;
+    padding-left: 20px;
+    font-size: 18px;
+}
