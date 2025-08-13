@@ -1,0 +1,22 @@
+h3{
+    color: grey;
+    font-size: 25px;
+}
+h3::first-letter{
+    text-transform: uppercase;
+}
+p::first-letter{
+    text-transform: uppercase;
+}
+p{
+    color: dimgray;
+}
+.comment{
+    width: 20vw;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
