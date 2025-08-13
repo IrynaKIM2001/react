@@ -1,0 +1,22 @@
+h2{
+    color: grey;
+    font-size: 25px;
+}
+h2::first-letter{
+    text-transform: uppercase;
+}
+p::first-letter{
+    text-transform: uppercase;
+}
+p{
+    color: dimgray;
+}
+.post{
+    width: 20vw;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
