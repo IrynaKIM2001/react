@@ -1,7 +1,7 @@
 export const ProductsComponentJSON = () => {
     return (
-        <div>
-            Products component JSON
+        <div style={{color: 'red'}}>
+            Products component none
         </div>
     );
 };
