@@ -1,0 +1,13 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(174, 172, 172, 0.82);
+}
