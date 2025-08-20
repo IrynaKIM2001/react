@@ -1,0 +1,13 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    font-size: 20px;
+}
