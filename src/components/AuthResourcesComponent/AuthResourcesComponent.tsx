@@ -1,5 +1,6 @@
 import type {IProduct} from "../../models/IProduct.ts";
 import type {FC} from "react";
+import './AuthResourcesComponent.css';
 
 type AuthResourcesComponentProps = {
     product: IProduct

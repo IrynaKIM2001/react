@@ -1,7 +1,8 @@
 import {useEffect, useState} from "react";
-import {loadAuthProducts, refresh} from "../services/api.service.ts";
-import { AuthResourcesComponent } from "../components/AuthResourcesComponent/AuthResourcesComponent.tsx";
-import type {IProduct} from "../models/IProduct.ts";
+import type {IProduct} from "../../models/IProduct.ts";
+import {loadAuthProducts, refresh} from "../../services/api.service.ts";
+import {AuthResourcesComponent} from "../AuthResourcesComponent/AuthResourcesComponent.tsx";
+import './AuthResourcesComponents.css';
 
 export const AuthResourcesComponents = () => {
     const [products, setProducts] = useState<IProduct[]>([]);
@@ -22,10 +23,9 @@ export const AuthResourcesComponents = () => {
     }, []);
 
     return (
-        <>{errorMessage && <div style={{ color: 'red', padding: '10px' }}>{errorMessage}</div>}
-            {
-                products.map(product => <AuthResourcesComponent key={product.id} product={product} />)
-            }
-        </>
+        <div className='products'>
+            {errorMessage && <div className='error'>{errorMessage}</div>}
+            {products.map(product => <AuthResourcesComponent key={product.id} product={product} />)}
+        </div>
     );
 };
